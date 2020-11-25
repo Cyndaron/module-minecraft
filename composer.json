@@ -11,6 +11,10 @@
     {
       "type": "vcs",
       "url":  "https://github.com/Cyndaron/Cyndaron"
+    },
+    {
+      "type": "vcs",
+      "url":  "https://github.com/Cyndaron/module-geelhoed"
     }
   ],
   "minimum-stability": "dev",
