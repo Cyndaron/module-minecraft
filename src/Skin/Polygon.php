@@ -134,6 +134,7 @@ final class Polygon
         if (!$same_plan_x && !$same_plan_y)
         {
             $colour = imagecolorallocate($image, $r, $g, $b);
+            assert($colour !== false);
             imagefilledpolygon($image, $points_2d, $nb_points, $colour);
         }
     }

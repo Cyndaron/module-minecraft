@@ -25,6 +25,7 @@ final class SkinRendererPNG extends SkinRenderer
         $this->image = imagecreatetruecolor($this->parameters->ratio * $width + 1, $this->parameters->ratio * $height + 1);
         imagesavealpha($this->image, true);
         $transColour = imagecolorallocatealpha($this->image, 0, 0, 0, 127);
+        assert($transColour !== false);
         imagefill($this->image, 0, 0, $transColour);
     }
 
