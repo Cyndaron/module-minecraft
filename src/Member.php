@@ -1,7 +1,7 @@
 <?php
 namespace Cyndaron\Minecraft;
 
-use Cyndaron\Model;
+use Cyndaron\DBAL\Model;
 use function count;
 use function reset;
 

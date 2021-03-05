@@ -10,6 +10,14 @@
   "repositories": [
     {
       "type": "vcs",
+      "url": "https://github.com/Cyndaron/module"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/Cyndaron/dbal"
+    },
+    {
+      "type": "vcs",
       "url":  "https://github.com/Cyndaron/Cyndaron"
     },
     {
@@ -23,7 +31,9 @@
     "php": "^7.4",
     "components/jquery": "^3.5",
     "symfony/http-foundation": "^5.0",
-    "thecodingmachine/safe": "^1.1"
+    "thecodingmachine/safe": "^1.1",
+    "cyndaron/dbal": "^1.0",
+    "cyndaron/module": "^1.0"
   },
   "require-dev": {
     "cyndaron/cyndaron": "dev-master",

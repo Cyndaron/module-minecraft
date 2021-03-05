@@ -11,7 +11,7 @@
  */
 namespace Cyndaron\Minecraft;
 
-use Cyndaron\Model;
+use Cyndaron\DBAL\Model;
 
 use ErrorException;
 use Safe\Exceptions\FilesystemException;
