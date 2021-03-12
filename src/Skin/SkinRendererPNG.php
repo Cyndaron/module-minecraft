@@ -12,6 +12,7 @@ use function imagecolorallocatealpha;
 use function ob_start;
 use function ob_get_clean;
 use function count;
+use function assert;
 
 final class SkinRendererPNG extends SkinRenderer
 {

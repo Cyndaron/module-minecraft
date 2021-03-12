@@ -18,11 +18,23 @@
     },
     {
       "type": "vcs",
+      "url": "https://github.com/Cyndaron/view"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/Cyndaron/util"
+    },
+    {
+      "type": "vcs",
       "url":  "https://github.com/Cyndaron/Cyndaron"
     },
     {
       "type": "vcs",
       "url":  "https://github.com/Cyndaron/module-geelhoed"
+    },
+    {
+      "type": "vcs",
+      "url":  "https://github.com/Cyndaron/module-ticketsale"
     }
   ],
   "minimum-stability": "dev",
@@ -34,7 +46,9 @@
     "thecodingmachine/safe": "^1.1",
     "cyndaron/dbal": "^1.0",
     "cyndaron/module": "^1.0",
-    "ext-gd": "*"
+    "ext-gd": "*",
+    "cyndaron/view": "^1.0",
+    "cyndaron/util": "^1.0"
   },
   "require-dev": {
     "cyndaron/cyndaron": "dev-master",

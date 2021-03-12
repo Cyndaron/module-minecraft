@@ -1,7 +1,7 @@
 <?php
 namespace Cyndaron\Minecraft\Skin;
 
-use Cyndaron\Template\Template;
+use Cyndaron\View\Template\Template;
 use Symfony\Component\HttpFoundation\Response;
 use function count;
 
